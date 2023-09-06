@@ -242,6 +242,12 @@ responsibilities:
 - random seed - used for entropy in creating pseudorandom numbers
 - configuration file - settings that exist on the client and server to dictate onfiguration of ssh and sshd respectively
 
+40,0,0,196,160,46
+
+
+40.0.0.196 and 160x256+46=41006 port
+
+
 #### ssh implementation concerns
 - using password authentication only
 - key rotation
