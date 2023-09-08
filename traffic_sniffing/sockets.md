@@ -64,5 +64,11 @@ https://docs.python.org/3/library/exceptions.html
 - Manually crafting a packet with the chosen data in header fields
 
 
-
-
+how to check python script
+stream
+echo "I got your message" | nc -l -p 12345
+dgram
+echo "I got your message" | nc -l -p 54321 -u
+raw
+sudo tcpdump -X ip[9]=0x10
+-filtering on chaos 
