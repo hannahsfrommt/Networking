@@ -132,3 +132,10 @@ ports aswell range
 
 
 ctrl+shift+v
+
+
+
+nc <options> <ip> <port>
+curl <URL or IP:[port]>
+wget<URL or IP:[port]>/<filename>
+eog <filename>
