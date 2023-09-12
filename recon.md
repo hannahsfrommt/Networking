@@ -7,15 +7,15 @@ Passive External: dns queries, whois queries, shodan, google-fu
 passive internal: active sniffing, situational awareness
 
 ## situational awareness
-where am i? uname -n, hostname
-who am i? whoami, id
-who else is on here? who, w
-what am i allowed to do? sudo -l
-what ports are open? netstat -anlptu, ss -nlptu (sudo to see process list if have permission)
-are there any special services running? ps -elf
-what interfaces do I have? ifconfig, ip addr (ip a)
-what other hosts does this box know? arp -a, ip neigh (ip n)
-what routes/networks does this host know? route, ip route (ip r)
+where am i? uname -n, hostname  
+who am i? whoami, id  
+who else is on here? who, w  
+what am i allowed to do? sudo -l  
+what ports are open? netstat -anlptu, ss -nlptu (sudo to see process list if have permission)  
+are there any special services running? ps -elf    
+what interfaces do I have? ifconfig, ip addr (ip a)  
+what other hosts does this box know? arp -a, ip neigh (ip n)  
+what routes/networks does this host know? route, ip route (ip r)  
 
 
 router is usally first or last ip address in your network
@@ -102,40 +102,41 @@ in google type: site:*ccboe.net "Powered by"
 - os fingerprinting scan
 - version scan
 - protocol ping
-- discovery probes
+- discovery probes  
 ```
-nmap [options] [target ip/subnet]
-nc [options] [target ip] [target port]
+nmap [options] [target ip/subnet]  
+nc [options] [target ip] [target port]  
 ```
-demo:
-on router:
-ssh vyos@172.16.20.1
-w
-whoami
-which sudo
-sudo -l
-ip a
-ip n
-ip r
-show int
-show config
-exit
+demo:  
+on router:  
+ssh vyos@172.16.20.1  
+w  
+whoami  
+which sudo  
+sudo -l  
+ip a  
+ip n  
+ip r  
+show int  
+show config  
+exit  
 
-nmap (lists all options)
-nmap 172.16.82.106
-nmap 172.16.82.106 -Pn (skip host disvoery treat every host as online)
-nmap 172.16.20.1 -p 3000-3099 -T4 --min-rate 10000 -A -vvvv(send 10000 packets a minute, t4 means agressively can see everything dont care about being seen, seeing if that port range is open, -A means all, -vvvvv more verbose not sitting waiting forever)
-can give ip a range or cidr in nmap scan
-172.16.20.1-10 or 172.16.20.1/29 or 172.16.20.1,172.16.20.2
-ports aswell range 
-1-1000 or 1-1000,2552 or '1-65535 is same as 1-' or -1000 or -p- (looks at all ports)
-
-
-ctrl+shift+v
-
-
-
-nc <options> <ip> <port>
-curl <URL or IP:[port]>
-wget<URL or IP:[port]>/<filename>
-eog <filename>
+nmap (lists all options)  
+nmap 172.16.82.106  
+nmap 172.16.82.106 -Pn (skip host disvoery treat every host as online)  
+nmap 172.16.20.1 -p 3000-3099 -T4 --min-rate 10000 -A -vvvv(send 10000 packets a minute, t4 means agressively can see  
+everything dont care about being seen, seeing if that port range is open, -A means all, -vvvvv more verbose not sitting waiting forever)  
+can give ip a range or cidr in nmap scan  
+172.16.20.1-10 or 172.16.20.1/29 or 172.16.20.1,172.16.20.2  
+ports aswell range   
+1-1000 or 1-1000,2552 or '1-65535 is same as 1-' or -1000 or -p- (looks at all ports)  
+  
+  
+ctrl+shift+v  
+  
+  
+  
+nc <options> <ip> <port>  
+curl <URL or IP:[port]>  
+wget<URL or IP:[port]>/<filename>  
+eog <filename>  
