@@ -102,42 +102,54 @@ Adware/Spyware:
 - large amounts of traffic/ unusual traffic
 - IOA: Destinations
 - IOC: Unusual traffic outbound
+
 Virus:
 - phishing/ watering hole
 - IOA: Alarm Events, Email protocols
 - IOC: changes to the registry/ system files
-Worm
+
+Worm:
 - phishing/ watering hole
 - IOA: Alarm events
 - IOC: changes to registry/ system files
+
 Trojan:
 - beaconing
 - IOA: Destinations
 - IOC: Unusual traffic outbound, unusual tasks, changes to registry/ system files
-Rootkit
+
+Rootkit:
 - IOA: Malware reinfection
 - IOC: Anomalous user login/ account use
-Backdoor
+
+Backdoor:
 - IOA: Remote logins
 - IOC: Anomalous user login/ account use
-Botnets
+
+Botnets:
 - large amounts of IPs
 - IOA: Destinations, remote logins
 - IOC: Unusual tasks, anomalous user login/ account use
-Polymorphic and Metamorphic Malware
+
+Polymorphic and Metamorphic Malware:
 - Depends on the malware type/class
-Ransomware
+
+Ransomware:
 - IOA: Destinations, Ports, Malware reinfection
 - IOC: Unusual traffic outbound, non-standard ports, unusual tasks
-Mobile Code
+
+Mobile Code:
 - IOA: Depends on the malware type/class
-Information-Stealing Worms
+
+Information-Stealing Worms:
 - phishing/ watering hole, large amounts of traffic/ unusual traffic
 - IOA: Alarm events, Destinations
 - IOC: changes to registry/ system files, Unusual traffic outbound
-BIOS/ Firmware Malware
+
+BIOS/ Firmware Malware:
 - IOA: Malware reinfection
 - IOC: depends on the malware type/class
+
 # POTENTIAL METHODS OF DETECTION FOR IOAS AND IOCS
 - Display Filters
 - Follow Streams
