@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T12:33:10.357Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.7.5" etag="Qypjktbosv0xEDr-Je7B" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T20:31:30.737Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="WC1ycazvrHET8Fx2H-DF" version="21.7.5" type="github">
   <diagram name="Page-1" id="FsDtjMjXBuNPlGgKIUJL">
-    <mxGraphModel>
+    <mxGraphModel dx="2284" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-1" value="capstone1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-2" value="internet host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-3" value="10.50.27.32&lt;br&gt;22,80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-4" value="10.1.1.30&lt;br&gt;10.1.1.0/25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-5" value="10.50.43.237" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="280" as="sourcePoint" />
+            <mxPoint x="-190" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-8" value="&lt;h1&gt;TUNNELS&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; font-weight: 400; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; text-align: center;&quot;&gt;IH&amp;gt;ssh net4_student18@10.50.27.2 -D 9050 -NT&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;IH&amp;gt;ssh net4_student18@10.50.27.32 -L 41800:10.1.1.11:23 -NT&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;IH&amp;gt;telnet 127.0.0.1 41800&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="570" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-9" value="capstone3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-10" value="10.1.1.25&lt;br&gt;21,791,4869" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-11" value="capstone4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-12" value="10.1.1.33&lt;br&gt;21, 23, 80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-13" value="capstone2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-14" value="10.1.1.11&lt;br&gt;21,23" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-18" value="10.1.1.11&lt;br&gt;1917" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-19" value="vyos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-22" value="ripv2 seems to be running on 10.1.1.0/25 net. try to sniff out traffic tofind out what networks its advertising in its updates&amp;nbsp;&lt;br&gt;&lt;br&gt;what you will find be the ip of next enviornment pivot to access from your IH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="580" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-23" value="there is webservice running on 791" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-24" value="there is a listening tcp port on system waiting for connections builda python3 tcp stream sender and send it hru yor tunnel to say Hi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="250" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-26" value="udp 520 = ripv2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-27" value="1.1.1.1&lt;br&gt;1.1.1.0/29" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-28" value="10.1.1.125&lt;br&gt;ssh on port 125" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-29" value="&amp;nbsp;10.50.41.66/32" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="650" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-30" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-35" value="ssh is running on a higher port althogh it only seems to accept connections&lt;br&gt;&amp;nbsp;when it looks like its coming from a cisco device ttl, try sing iptables to&lt;br&gt;&amp;nbsp;adjust your sending ttl. the flag for this system is the ssh port number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6MEH7u_Z3ntwBExG2UEn-38" value="&lt;h1&gt;TABS OPEN&lt;/h1&gt;&lt;div&gt;&lt;div&gt;student@internet-host-student-18:~$ ssh net4_student18@10.50.27.32 -L 41800:10.1.1.11:23 -NT&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;student@internet-host-student-18:~$ ssh net4_student18@10.50.27.32&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;telnet to cap2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;student@internet-host-student-18:~$ ssh net4_student18@10.50.27.32 -D 9050 -NT&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;student@internet-host-student-18:~$ ssh net4_student18@10.50.27.32 -L 41801:10.1.1.33:23 -NT&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="920" width="660" height="360" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
